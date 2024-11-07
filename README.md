@@ -33,3 +33,9 @@
 **_`Hello World`_**
 
 **_`This is Kafka Stream Processing World`_**
+
+### **_GitHub Repositories by `BOUALI Ali` & `Ramesh Fadatare - Java Guides` to Start with -_**
+
+- **[GitHub Repository 1](https://github.com/RameshMF/springboot-kafka-course) Ramesh Fadatare - Java Guides**
+
+- **[GitHub Repository 2](https://github.com/ali-bouali/apache-kafka-with-spring-boot-reactive) Bouali Ali**
