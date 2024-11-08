@@ -1,5 +1,6 @@
 package com.kafka.springbootkafka.producer;
 
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.kafka.core.KafkaTemplate;
 import org.springframework.kafka.support.KafkaHeaders;
 import org.springframework.messaging.Message;
@@ -14,11 +15,14 @@ import lombok.RequiredArgsConstructor;
 @RequiredArgsConstructor
 public class KafkaJsonProducer {
 	
+	@Value("${spring.kafka.topic-json.name}")
+	private String kafkaJsonTopicName;
+	
 	private final KafkaTemplate<String, Student> kafkaTemplate;
 	
 	public void sendMessage(Student student) {
 		Message<Student> message = MessageBuilder.withPayload(student)
-				.setHeader(KafkaHeaders.TOPIC, "demo-topic")
+				.setHeader(KafkaHeaders.TOPIC, kafkaJsonTopicName)
 				.build();
 		
 		kafkaTemplate.send(message);
