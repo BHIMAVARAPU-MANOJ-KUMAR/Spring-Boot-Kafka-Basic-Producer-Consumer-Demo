@@ -38,4 +38,6 @@
 
 - **[GitHub Repository 1](https://github.com/RameshMF/springboot-kafka-course) Ramesh Fadatare - Java Guides**
 
-- **[GitHub Repository 2](https://github.com/ali-bouali/apache-kafka-with-spring-boot-reactive) Bouali Ali**
+- **[GitHub Repository 2](https://github.com/RameshMF/springboot-microservices) Ramesh Fadatare - Java Guides**
+
+- **[GitHub Repository 3](https://github.com/ali-bouali/apache-kafka-with-spring-boot-reactive) Bouali Ali**
