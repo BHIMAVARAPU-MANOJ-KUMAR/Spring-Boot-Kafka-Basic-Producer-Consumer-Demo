@@ -34,6 +34,8 @@
 
 **_`This is Kafka Stream Processing World`_**
 
+![Image of Spring Boot Kafka Project Flow Diagram](https://github.com/BHIMAVARAPU-MANOJ-KUMAR/Spring-Boot-Kafka-Basic-Producer-Consumer-Demo/blob/main/kafka_project_diagram.jpeg?raw=true)
+
 ### **_GitHub Repositories by `BOUALI Ali` & `Ramesh Fadatare - Java Guides` to Start with -_**
 
 - **[GitHub Repository 1](https://github.com/RameshMF/springboot-kafka-course) Ramesh Fadatare - Java Guides**
